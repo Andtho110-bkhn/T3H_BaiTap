@@ -1,4 +1,4 @@
-package nguyentientho.t3h.baitap;
+package nguyentientho.t3h.baitap.ls3;
 
 import org.apache.commons.lang3.ArrayUtils;
 

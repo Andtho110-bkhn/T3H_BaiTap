@@ -1,4 +1,4 @@
-package nguyentientho.t3h.baitap;
+package nguyentientho.t3h.baitap.ls2;
 
 import java.util.Scanner;
 
