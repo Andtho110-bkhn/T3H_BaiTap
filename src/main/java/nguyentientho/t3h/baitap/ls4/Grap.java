@@ -11,8 +11,9 @@ public class Grap implements GrapInterface {
     public Grap(String ten) {
         this.ten = ten;
     }
-    
-    protected String loaiXe() { 
+
+    @Override
+    public String loaiXe() {
         // Lớp con ghi đè để lấy loại xe
         return "Xe";
     }

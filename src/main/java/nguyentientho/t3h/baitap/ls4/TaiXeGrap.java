@@ -23,11 +23,20 @@ public class TaiXeGrap {
 				int gioLamThem = Integer.parseInt(scanner.nextLine());
 				System.out.print("Loại giờ làm thêm (1-Cao điểm; 2-Thấp điểm): ");
 				int loaiXe = Integer.parseInt(scanner.nextLine());
+				// Tính đa hinh: ta add đối tượng GrapCar vào mangTaiXe
+				/* GrapCar gCar = new GrapCar (ten, gioLamThem, loaiXe);
+					mangTaiXe[i] = gCar;
+				 */
 				mangTaiXe[i] = new GrapCar(ten, gioLamThem, loaiXe);
 			} else {
 				System.out.print("Số cuốc chạy: ");
 				int gioLamViec = Integer.parseInt(scanner.nextLine());
+				// Tính đa hinh: ta add đối tượng GrapBike vào mangTaiXe
+				/* GrapBike gBike = new GrapBike (ten, gioLamViec);
+					mangTaiXe[i] = gBike;
+				 */
 				mangTaiXe[i] = new GrapBike(ten, gioLamViec);
+				GrapBike gBike = (GrapBike) mangTaiXe[i]; // downCasting
 			}
 		}
 		System.out.println("\nKết quả tính lương\n");
